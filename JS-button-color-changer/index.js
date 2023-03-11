@@ -15,3 +15,6 @@ function colorize () {
 for (let button of buttons) {
   button.addEventListener('click', colorize);
 }
+
+// In this case, the 'this' keyword refers to the element which is triggering the event which is the button in the for of loop.
+// Wherever the event occured, the 'this' keyword refers to that element.
