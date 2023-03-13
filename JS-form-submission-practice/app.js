@@ -10,4 +10,6 @@ form.addEventListener("submit", function (e) {
   const newLI = document.createElement("LI");
   newLI.innerText = `${qtyInput} ${prdInput}`;
   list.append(newLI);
+  prd.value = "";
+  qty.value = "";
 })
