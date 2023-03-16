@@ -14,4 +14,7 @@ async function colorChange() {
   await delayedColorChange('green', 1000);
   await delayedColorChange('indigo', 1000);
   await delayedColorChange('violet', 1000);
+  console.log("End of rainbow!")
 }
+
+console.log("connected")
