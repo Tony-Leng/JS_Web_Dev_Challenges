@@ -8,13 +8,13 @@ const delayedColorChange = (color, delay) => {
 }
 
 async function colorChange() {
-  await delayedColorChange('red', 1000);
-  await delayedColorChange('orange', 1000);
-  await delayedColorChange('yellow', 1000);
-  await delayedColorChange('green', 1000);
-  await delayedColorChange('indigo', 1000);
-  await delayedColorChange('violet', 1000);
+  await delayedColorChange('red', 2000);
+  await delayedColorChange('orange', 2000);
+  await delayedColorChange('yellow', 2000);
+  await delayedColorChange('green', 2000);
+  await delayedColorChange('indigo', 2000);
+  await delayedColorChange('violet', 2000);
   console.log("End of rainbow!")
 }
 
-console.log("connected")
+console.log("Hi, Eri!")
